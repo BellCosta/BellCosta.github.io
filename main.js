@@ -1,7 +1,7 @@
 var imagens = [
-    { src: "imagens/Meu primeiro site.jpg", link: "https://www.microsoft.com/pt-br", nome: "ODS - ONU" },
-    { src: "imagens/Cardapio Sweetland Ice Cream.jpg", link: "https://www.microsoft.com/pt-br", nome: "Cardápio Sweetland Ice Cream" },
-    { src: "imagens/Galeria de artes.jpg", link: "https://www.microsoft.com/pt-br", nome: "Galeria de Artes" }
+    { src: "imagens/Meu primeiro site.jpg", link: "https://bellcosta.github.io/ElasNaTechMeuPrimeiroSiteVF/", nome: "ODS - ONU" },
+    { src: "imagens/Cardapio Sweetland Ice Cream.jpg", link: "https://bellcosta.github.io/CardapioSweetLandIceCream/", nome: "Cardápio Sweetland Ice Cream" },
+    { src: "imagens/Galeria de artes.jpg", link: "https://bellcosta.github.io/galeriadearte/", nome: "Galeria de Artes" }
 ];
 
 var descricoes = [
