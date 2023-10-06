@@ -1,0 +1,338 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-family: 'Varela Round', sans-serif;
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.068), rgba(0, 0, 0, 0)), url(imagens/Background.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 1.5em;
+}
+
+header {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    z-index: 1000;
+    margin-top: 17px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+
+  #header_mobile{
+    display: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px; 
+    border-radius: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #BAABDA;
+    color: #fff;
+  }
+  
+  #margin_contato{
+    margin-right: 0;
+  }
+
+#logo{
+    width: 20%;
+}
+
+#logo_media_mobile{
+    display: none;
+}
+
+.logo_social_lkd{
+    padding: 7%; 
+    transition:  0.9s;
+    background-image: url(imagens/linkedicon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo_social_lkd:hover{
+    background-image: url(imagens/linkedinroxo.jpg);
+    background-size: contain;
+}
+
+.logo_social_mail{
+    padding: 7%; 
+    transition:  0.9s;
+    background-image: url(imagens/emailicon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo_social_mail:hover{
+    background-image: url(imagens/mailroxo.jpg);
+    background-size: contain;
+}
+
+.logo_social_git{
+    padding: 7%; 
+    transition:  0.9s;
+    background-image: url(imagens/giticon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo_social_git:hover{
+    background-image: url(imagens/gitroxo.jpg);
+    background-size: contain;
+}
+
+#logos_container{
+    display: flex;
+    justify-content: space-between;
+    text-wrap: nowrap;
+    align-items: center;
+}
+
+
+#logo_media{
+    
+    text-align: end;
+}
+
+main{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 3%;  
+    background-color: #ffffff57;
+}
+
+.div_img_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+    
+}
+
+.div_img_text img{
+    padding-top: 4%;
+    padding-bottom: 3%;
+    width: 70%;
+}
+
+.div_img_text a{
+    margin-top: 10%;
+}
+
+.a_decor{
+    text-decoration: none;
+}
+
+#self_introduction_links{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#self_introduction_links a {
+    margin: 5px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+#self_introduction_links a:hover{
+    background-color: #BAABDA;
+    color: #fff;
+    border-color: #BAABDA;
+}
+
+.imgs{
+    width: 7%;
+    margin-top: 5px;
+}
+
+#competencia{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#icon_text_container{
+    display: flex;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    
+}
+
+#icon_text_container div{
+    padding: 2%;
+   
+    flex: 1;
+}
+
+#html_icon{
+    border-left: solid #baabda36;
+    border-right: solid #baabda36;
+}
+
+#galery_container {
+    text-align: center;
+    margin: 5% 5% 0% 5%;
+    border-bottom: 1px solid #BAABDA;
+    padding-bottom: 7%;
+
+  
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+   
+}
+   
+.galery_btn{
+    height: 40px;
+    width: 40px;
+    
+}
+
+#descricaoObra{
+    background-color: #ffffffad;
+    padding: 2%;
+    border-radius: 20px;
+}
+    
+
+#nomeObra{
+    font-size: 1.5em;
+}
+
+#form_container{
+    margin-top: 5%;
+}
+
+#form_container p{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+form {
+    text-align: center; 
+    margin: 20px auto; 
+    max-width: 400px; 
+    padding: 40px; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form label {
+    display: block; 
+    text-align: left; 
+    margin-bottom: 5px; 
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; /
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    resize: none;
+}
+
+
+form input[type="submit"] { 
+    background-color: #fff;
+    color: #0c0c0c; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    display: flex;
+    background-color: #ffffff93;
+    justify-content: space-around;
+    font-size: 0.9em;
+    border-radius: 20px;
+    margin-top: 5%;
+    padding: 1%;
+
+    
+}
+
+footer li{
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 5%;
+    
+}
+
+footer li{
+    white-space: nowrap;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0c0c0c;
+    transition: 0.3s ease-in-out;
+    margin: %;
+    
+}
+
+footer a:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer p{
+    margin-bottom: 2%;
+}
+
+.thanks{
+    font-size: 1em;
+    text-align: center;
+}
+
+#footer_mobile{
+    display: none;
+}
+

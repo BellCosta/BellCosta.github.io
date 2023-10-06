@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Galeria</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos para o container da galeria */
+        #gallery_container {
+            text-align: center;
+            margin-top: 5%;
+            border-top: solid #baabda36 2px;
+            border-bottom: solid #baabda36 2px;
+            padding-bottom: 5%;
+        }
+
+        /* Estilos para o cabeçalho */
+        .title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para a galeria */
+        .galeria {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Estilos para imagens e botões */
+        .imagem {
+            max-width: 100%; /* Tornar as imagens responsivas */
+            height: auto;
+        }
+
+        .galery_btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para dispositivos móveis */
+        @media (max-width: 768px) {
+            .title {
+                font-size: 1.2em; /* Reduza o tamanho do título */
+            }
+
+            .galeria {
+                max-width: 80%; /* Reduza a largura da galeria */
+            }
+
+            .imagem {
+                width: 100%; /* Reduza a largura da imagem */
+            }
+
+            .galery_btn {
+                width: 30px; /* Ajuste o tamanho dos botões */
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="gallery_container">
+        <p class="title">Minha Galeria</p>
+        <div class="galeria">
+            <button class="galery_btn" id="btn_left" onclick="mudarFoto(-1)">&#10094;</button>
+            <div class="imagem">
+                <img src="img/Ainda vida com cranio 1898 a.jpg" alt="Imagem 1">
+            </div>
+            <button class="galery_btn" id="btn_right" onclick="mudarFoto(1)">&#10095;</button>
+        </div>
+        <div id="descricaoObra">
+            <p id="nomeObra"></p>
+        </div>
+    </div>
+
+    <script>
+        // ... (seu JavaScript aqui)
+    </script>
+</body>
+</html>

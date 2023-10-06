@@ -1,0 +1,174 @@
+@media (max-width: 768px){
+   
+    header{
+       display: none;
+    }
+
+    #header_mobile{
+        display: flex;
+        justify-content: space-around;
+        background-color: #ffffff98;
+        padding: 5%;
+        border-radius: 20px;
+    }
+
+    #header_mobile a, li{
+        list-style: none;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #logo_media_mobile{
+        display: flex;
+    }
+
+    #logo_media_mobile div{
+        padding-right: 5%;
+    }
+
+    .logo_social_lkd{
+        display: none;
+    }
+
+    .logo_social_lkd:hover{
+        display: none;
+    }
+
+    .logo_social_mail{
+        display: none;
+    }
+
+    .logo_social_mail:hover{
+        display: none;
+    }
+
+    .logo_social_git{
+        display: none;
+    }
+
+    #logo_media{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
+
+    nav li{
+        padding: 2%;
+        text-align: center;
+        
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        text-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    main{
+        padding: 5%;
+    }
+
+   .div_img_text{
+    flex-direction: column;
+    width: 100%;
+   }
+
+   .div_img_text img{
+    width: 70%;
+   }
+   
+   #self_introduction_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3%;
+   }
+
+
+   #competencia{
+    padding: 5%;
+   }
+
+   #icon_text_container{
+    flex-direction: column;
+   }
+    
+   #html_icon{
+    border-left: none;
+    border-right: none;
+    border-top: solid #baabda36;
+    border-bottom: solid #baabda36;
+   }
+   
+   
+    #galery_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    
+   }
+
+   .galery_btn{
+    margin: 5%;
+    background-color: #ffffff;
+    border: solid 0.1px #000000;
+    padding: 2%;
+   }
+
+   #descricaoObra{
+    background-color: #ffffff96;
+    padding: 5%;
+    border-radius: 20px;
+   }
+   
+    .galeria{
+        size: 0.2%;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10%;
+        
+    }
+    
+    .imagem_responsiva{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .galeria img{
+        max-width: 100%;
+        height: auto;
+        padding-top: 2%;
+    }
+
+    footer{
+        display: none;
+    }
+
+    #footer_mobile{
+        background-color: #ffffff67;
+        border-radius: 20px;
+        margin-top: 7%;
+        padding: 2%;
+    }
+
+    #footer_mobile a, ul{
+        list-style: none;
+        text-decoration: none;
+        color: #000000;
+        transition: 0.3s ease-in-out;
+    
+    }
+    
+    footer a:hover{
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+       
+    }
+
+    #footer_links{
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
