@@ -147,28 +147,20 @@
     }
 
     #footer_mobile{
-        background-color: #ffffff67;
+        display: flex;
+        flex-direction: column;
+        background-color:#ffffff8c;
         border-radius: 20px;
-        margin-top: 7%;
-        padding: 2%;
-    }
-
-    #footer_mobile a, ul{
-        list-style: none;
-        text-decoration: none;
-        color: #000000;
-        transition: 0.3s ease-in-out;
-    
-    }
-    
-    footer a:hover{
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-       
     }
 
     #footer_links{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+    }
+
+    #footer_links li, a{
+        text-decoration: none;
+        color: #000000;
 
     }
 }

@@ -1,7 +1,7 @@
 body{
     font-family: 'Varela Round', sans-serif;
     margin-bottom: 5%;
-   
+    background: linear-gradient(to bottom, #BAABDA, #FFFFFF);
 
 }
 img{
@@ -29,10 +29,12 @@ img{
     margin-top: 5%;
     padding: 3%;
     border-radius: 20px;
-    width: 60%;
-    
-    
+    width: 60%;  
   
+}
+
+.content{
+    background-color: #ffffff9c;
 }
 
 .title{
